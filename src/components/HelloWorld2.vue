@@ -13,7 +13,7 @@
       <input type="checkbox" v-model="item.check" @change="clickI">
       <span>{{item.msg}}</span>
       <button @click="del(index)">删除</button>
-    </li>
+    </li> 
 
     <li v-for="(item,index) in actarr" v-if='act1'>
       <input type="checkbox" v-model="item.check" @change="clickI">
