@@ -99,7 +99,7 @@ export default {
           if(this.msgs[i].check===false){
             this.msgsBackAct.push(this.msgs[i])
         }
-      }
+      } 
     },
     complish:function(){
         this.msgs=[]
